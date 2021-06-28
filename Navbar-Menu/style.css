@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+.covid-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.covid-div .continer {
+  margin-top: 20px;
+  width: 1050px;
+  height: 120px;
+  border-radius: 5px;
+  border: 1px solid #D0D0D0;
+}
+.covid-div .continer .covid-block {
+  display: flex;
+  padding-top: 20px;
+}
+.covid-div .continer .covid-block .covid-block__title {
+  display: flex;
+  padding: 0 0 0 50px;
+}
+.covid-div .continer .covid-block .covid-block__title .img {
+  background-image: url(./img/virus.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  margin-top: 15px;
+  width: 50px;
+  height: 50px;
+}
+.covid-div .continer .covid-block .covid-block__title a {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.covid-div .continer .covid-block .covid-block__list .covid-block__item {
+  margin-left: 70px;
+  display: flex;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.covid-div .continer .covid-block .covid-block__list .covid-block__item .item-img {
+  background-image: url(./img/covid-i-1.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+.covid-div .continer .covid-block .covid-block__list .covid-block__item .item-img2 {
+  background-image: url(./img/covid-i-2.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+.covid-div .continer .covid-block .covid-block__list .covid-block__item .item-img3 {
+  background-image: url(./img/covid-i-3.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+.covid-div .continer .covid-block .covid-block__list .covid-block__item .item-text {
+  border-left: 1px solid #D1D1D1;
+  padding-left: 10px;
+  margin-left: 5px;
+  padding-top: 5px;
+  height: 50px;
+}
+.covid-div .continer .covid-block .covid-block__list .covid-block__item .item-text .item-text__title {
+  font-weight: 400;
+}
+.covid-div .continer .covid-block .covid-block__list .covid-block__item .item-text .item-text__subtitle {
+  color: #E1084D;
+}
+.covid-div .continer .covid-block .covid-block__list .covid-block__item .item-text .item-text__subtitle b {
+  font-weight: 400;
+  font-size: 23px;
+}
+
+/*# sourceMappingURL=style.css.map */
